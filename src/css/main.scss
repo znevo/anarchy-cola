@@ -1,0 +1,40 @@
+$red: #e0071a;
+$tabs-toggle-link-active-background-color: $red;
+$tabs-toggle-link-active-border-color: $red;
+
+@import '~bulma/bulma.sass';
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.button {
+    width: 175px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 500px;
+}
+
+.onboarding .button {
+    width: auto;
+}
+
+.onboarding.install-metamask,
+.onboarding.connect-wallet, {
+    margin-top: 88px;
+}
+
+.container.constrained {
+    max-width: 600px;
+}
+
+.owner-engineer {
+    margin: auto;
+    margin-bottom: 24px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        max-width: 65%;
+        max-width: 400px
+    }
+}
